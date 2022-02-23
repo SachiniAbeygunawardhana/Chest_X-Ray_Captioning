@@ -22,7 +22,7 @@ class App extends Component {
           </ul>
           <div className="content">
           <Routes>
-                 <Route path="/" element={<Home/>}></Route>
+                 <Route exact path="/" element={<Home/>}></Route>
                  <Route path="/about" element={<About/>} exact />
           </Routes>
           </div>
